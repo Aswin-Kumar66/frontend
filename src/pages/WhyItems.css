@@ -1,0 +1,42 @@
+.inditem{
+    height: 250px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    width : 400px
+}
+
+.Whyitems{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* width: 500px; */
+    padding : 50px;
+    padding-left: 150px;
+    list-style: none;
+}
+.Whyitems :hover{
+    background-color: yellow;
+    color: black;
+}
+.logo{
+    /* color: white; */
+    text-decoration: none;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 10rem;
+
+}
+.whychoose{
+    padding-left: 500px;
+}
+.cent{
+    padding-left: 50px;
+}
+.choose{
+    color: yellow;
+}

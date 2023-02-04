@@ -1,0 +1,82 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 30px 0;
+    background: #0c0c0c;
+    padding: 0 0 30px 0;
+    font-size: 14px;
+}
+.MoongladeLinks{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    background: #ffeb4e;
+    color: #000000;
+    text-align: center;
+    padding: 30px 20px;
+    width: 350px;
+    height : 200px;
+    margin-left: 100px;
+    font-size: 16px;
+}
+.solutions{
+    padding-left: 50px;
+    padding-right: 20px;
+    font-size: 16px;
+    /* width: 100px; */
+    /* background-color: aliceblue; */
+    
+}
+.usefulLinks{
+    padding-left: 50px;
+    font-size: 16px;
+
+}
+.footerlist{
+    list-style: '>';
+}
+.footerlist :hover{
+    color: yellow;
+}
+.button{
+    background-color: #ffeb4e;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #ffeb4e;
+    color: #000000;
+    transition: 0.3s;
+}
+.social{
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    
+}
+.links{
+    font-size: 18px;
+    display: inline-block;
+    background: #262626;
+    color: #ffffff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-left: 11px;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 20px;
+    transition: 0.3s;
+
+}
+.social :hover{
+    background-color: greenyellow;
+    color : black;
+}
+.footerpara{
+    color: #ffeb4e;
+    font-size: 17px;
+    font-weight: bold;
+}
