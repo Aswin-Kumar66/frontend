@@ -1,3 +1,5 @@
+import AppConsulting from "../pages/AppConsulting";
+
 export const navItems = [
     {
       id: 1,
@@ -37,6 +39,7 @@ export const navItems = [
       title: "App Consulting",
       path: "./AppConsulting",
       cName: "submenu-item",
+      component :  {AppConsulting},
     },
     {
       id: 2,

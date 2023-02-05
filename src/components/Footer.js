@@ -27,21 +27,21 @@ return (
 		<div class = "usefulLinks">
 		<p class = "footerpara">Useful Links</p>
 		<ul class = "footerlist">
-			<li>Home</li>
-			<li>About</li>
-			<li>Solutions</li>
-			<li>Why MoongladeLinks</li>
-			<li>Privacy Policy</li>
+			<li class = "flist">Home</li>
+			<li class = "flist">About</li>
+			<li class = "flist">Solutions</li>
+			<li class = "flist">Why MoongladeLinks</li>
+			<li class = "flist">Privacy Policy</li>
 		</ul>
 		</div>
 
 		<div class = "solutions">
 		<p class = "footerpara">Solutions</p>
 		<ul class = "footerlist">
-			<li>Mobile App&Game Marketing</li>
-			<li>Brand Promotion</li>
-			<li>Performance Marketing</li>
-			<li>Lead Generation</li>
+			<li class = "flist">Mobile App&Game Marketing</li>
+			<li class = "flist">Brand Promotion</li>
+			<li class = "flist">Performance Marketing</li>
+			<li class = "flist">Lead Generation</li>
 		</ul>
 		</div>
 		<textarea rows = "2" cols = "35" placeholder="Enter your email"></textarea>

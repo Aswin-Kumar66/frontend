@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import * as Icons from "react-icons/fa";
+import {useMatch , useResolvedPath} from "react-router-dom"
 import "./Navbar.css";
 import { navItems } from "./NavItems";
 import Dropdown from "./Dropdown";
@@ -10,6 +10,20 @@ function Navbar() {
   const [dropdown, setDropdown] = useState(false);
   const [click, setclick] = useState(false);
   const handleclick = () => setclick(false);
+
+
+  function CustomLink({ to, children, ...props }) {
+    const resolvedPath = useResolvedPath(to)
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+  
+    return (
+      <li className={isActive ? "active" : ""}>
+        <Link to={to} {...props}>
+          {children}
+        </Link>
+      </li>
+    )
+  }
 
   return (
     <>
@@ -28,7 +42,7 @@ function Navbar() {
                   onMouseEnter={() => setDropdown(true)}
                   onMouseLeave={() => setDropdown(false)}
                 >
-                  <Link to={item.path} onClick = {handleclick}>{item.title}</Link>
+                  <CustomLink to={item.path} onClick = {handleclick}>{item.title}</CustomLink>
                   {dropdown && <Dropdown />}
                 </li>
               );

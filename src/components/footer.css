@@ -34,6 +34,10 @@
 }
 .footerlist{
     list-style: '>';
+    
+}
+.flist{
+    padding : 6px;
 }
 .footerlist :hover{
     color: yellow;

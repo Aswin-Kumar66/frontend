@@ -9,9 +9,9 @@ function WhyMoonglade(){
         arr.push(
             <div class = "inditem">
                 <div class = "logo">
-                {WhyItems[i].Icon}
+                  <img src =  {WhyItems[i].Icon} />
                 </div>
-            <h1>{WhyItems[i].title}</h1>
+            <h2>{WhyItems[i].title}</h2>
             <p>{WhyItems[i].Description}</p>
             </div>
 
@@ -20,10 +20,10 @@ function WhyMoonglade(){
     for(let i=3;i<6;i++){
         arr1.push(
             <div class = "inditem">
-               <div class = "logo">
-                {WhyItems[i].Icon}
+             <div class = "logo">
+                  <img src =  {WhyItems[i].Icon} />
                 </div>
-            <h1>{WhyItems[i].title}</h1>
+            <h2>{WhyItems[i].title}</h2>
             <p>{WhyItems[i].Description}</p>
             </div>
 

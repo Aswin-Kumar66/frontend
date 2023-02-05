@@ -4,22 +4,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 500px; */
+    width: 1500px;
     padding : 100px;
-    padding-left: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .items{
     list-style: none;
     width: 80vw;
     justify-content: flex-end;
-    margin-right: 9rem;
+    margin-right: 8rem;
+    padding: 30px;
 }
-.aboutitems :hover {
-    background-color : yellow;
-    color: black;
-  }
 
+.aboutitems :hover{
+    background-color: yellow;
+}
 .h2{
     color: yellow;
 }
@@ -32,14 +33,23 @@
 }
 
 .list{
-    list-style: '>';
+    list-style-image: url("../images/tickforlist.png");
     color: yellow;
     text-align: left;
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.listitems{
+    padding : 5px;
+}
+.text{
     font-size: 17px;
 }
 .container{
     width : 600px;
     padding-left: 150px;
+    padding-right: 150px;
 }
 
 .talks{
@@ -58,8 +68,15 @@
     padding-top: 40px;
 }
 .carousel{
-    padding-left: 150px;
-    padding-top: 15px;
-    height: 70%;
-    width : 70%;
+    /* padding-left: 10px; */
+    padding-top: 50px;
+    height: 80%;
+    width : 90%;
 }
+
+button.rec-dot{
+    background-color: rgba(199, 235, 16, 0.411);
+   height : 2px;
+   width : 40px;
+  }
+  

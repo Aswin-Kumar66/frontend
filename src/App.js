@@ -1,28 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import WhyMoonglade from "./pages/WhyMoonglade";
-import Solutions from "./pages/Solutions";
-import ContactUs from "./pages/ContactUs";
-import Footer from './components/Footer';
+import { Route, Routes } from "react-router-dom";
+import Main from './components/Main';
+import AppConsulting from './pages/AppConsulting';
+import BrandPromotion from './pages/BrandPromotion';
+import LeadGeneration from './pages/LeadGeneration';
+import PerformaneMarketing from './pages/PerformanceMareting';
 
 function App() {
+
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Home/>
-      <About/>
-      <WhyMoonglade/>
-      <ContactUs/>
-      <Footer/>
-        
-      </BrowserRouter>
-   
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/AppConsulting" element={<AppConsulting />} />
+          <Route path="/BrandPromotion" element={<BrandPromotion />} />
+          <Route path="/LeadGeneration" element={<LeadGeneration />} />
+          <Route path="/PerformanceMarketing" element={<PerformaneMarketing />} />
+        </Routes>
+
     </>
   );
 }

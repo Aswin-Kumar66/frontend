@@ -33,10 +33,12 @@ function ContactUs(){
 
 
     </div>
+    
 
         <div class = "contact">
             <div class = "map">
-                {/* <MapContainer></MapContainer> */}
+            <MapContainer></MapContainer>
+                
             </div>
             <div class = "sendmessage">
                 <div>{/* <textarea rows = "3" cols = "30"  placeholder="Your email"></textarea> */}

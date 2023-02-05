@@ -1,5 +1,5 @@
 .inditem{
-    height: 250px;
+    height: 200px;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,7 @@
     text-align: center;
     /* width: 500px; */
     padding : 50px;
-    padding-left: 150px;
+    padding-left: 100px;
     list-style: none;
 }
 .Whyitems :hover{
@@ -23,11 +23,12 @@
 .logo{
     /* color: white; */
     text-decoration: none;
-    font-size: 4rem;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding-left: 130px;
     width: 10rem;
 
 }
