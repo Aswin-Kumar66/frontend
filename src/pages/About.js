@@ -16,24 +16,56 @@ function About(){
 return (
     <>
     <div class = "aboutitems" id = "About">
+      <div class = "aboutitem">
       <div class = "items" >
+        <div class = "before" >
         <h1>Our</h1>
-        <h2 class = "h2">Principles</h2>
+        <h1 class = "h2">Principles</h1>
+        {/* <p id = "p">Building a world-class brand reputation requires a perfect combination of Ideation, Strategy and Implementation.</p> */}
+        </div>
+        <div class = "after">
+        {/* <h1>Our</h1> */}
+        <h1 class = "h2">Principles</h1>
+        <br/>
+        <br/>
         <p id = "p">Building a world-class brand reputation requires a perfect combination of Ideation, Strategy and Implementation.</p>
+        </div>
+        </div>
+      </div>
+      <div class = "aboutitem">
+      <div class = "items">
+        <div class = "before">
         
-       
-      </div>
-      <div class = "items">
       <h1>Work</h1>
+        <h1 class = "h2">Methods</h1>
+        {/* <p id = "p">Laser focused approach for every single task to reach most rewarding customers at first will make a real difference.</p> */}
+        </div>
+        <div class = "after">
+        
+      {/* <h1>Work</h1> */}
         <h2 class = "h2">Methods</h2>
+        <br/>
+        <br/>
         <p id = "p">Laser focused approach for every single task to reach most rewarding customers at first will make a real difference.</p>
-
+        
+        </div>
       </div>
+      </div>
+      <div class = "aboutitem">
       <div class = "items">
+        <div class = "before">
       <h1>Ethics</h1>
+        <h1 class = "h2">Measurement</h1>
+        {/* <p id = "p" >Best ROI is the result of good performance marketing. Client’s Returns on Ad Spend are our performance metrics.</p> */}
+        </div>
+        <div class = "after">
+      {/* <h1>Ethics</h1> */}
         <h2 class = "h2">Measurement</h2>
+        <br/>
+        <br/>
         <p id = "p" >Best ROI is the result of good performance marketing. Client’s Returns on Ad Spend are our performance metrics.</p>
-
+        </div>
+      </div>
       </div>
 
 

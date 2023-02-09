@@ -39,6 +39,7 @@
 .flist{
     padding : 6px;
 }
+
 .footerlist :hover{
     color: yellow;
 }
@@ -48,10 +49,15 @@
     width: 120px;
     font-size: 16px;
     padding: 0 20px;
-    background: #ffeb4e;
+    /* background: #ffeb4e; */
     color: #000000;
     transition: 0.3s;
 }
+
+.button :hover{
+    color: aquamarine;
+}
+
 .social{
     font-size: 18px;
     display: flex;

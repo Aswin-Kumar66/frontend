@@ -1,16 +1,14 @@
 .services-submenu {
     width: 17rem;
-    position: absolute;
+    position: fixed;
     top: 70px;
     list-style: none;
-    max-height: 700px;
-    text-align: start;
-    height: 100%;
   }
   
   .services-submenu li {
     background: #333;
     cursor: pointer;
+    z-index: 9;
     
   }
   

@@ -2,6 +2,13 @@ import React from "react";
 import "./ContactUS.css";
 import * as Icons from "react-icons/fa";
 import MapContainer from "./Map"
+import emailjs from 'emailjs-com';
+
+function sendemail(e){
+  e.preventDefault();
+  emailjs.sendForm('service_efg2okp' , 'template_nz5a1dh' , e.target , 'VlO7PdyhzbRA02YBM');
+
+}
 
 function ContactUs(){
     return (
@@ -41,15 +48,17 @@ function ContactUs(){
                 
             </div>
             <div class = "sendmessage">
+              <form onSubmit={sendemail}>
                 <div>{/* <textarea rows = "3" cols = "30"  placeholder="Your email"></textarea> */}
-                    <textarea class = "textarea" rows = "3" cols = "35"  placeholder="Your Name"></textarea>
-                    <textarea class = "textarea" rows = "3" cols = "35"  placeholder="Your email"></textarea>
+                    <textarea class = "textarea" type = "text" rows = "3" cols = "35" name = "name" placeholder="Your name"/>
+                    <textarea class = "textarea" type = "text" rows = "3" cols = "35"  name = "user_email" placeholder="Your email"/>
                 </div>
-                <textarea  class = "textarea" rows = "3" cols = "70" placeholder="Subject"></textarea>
+                <textarea  class = "textarea" type = "text"rows = "3" cols = "70" name = "Subject"placeholder="Subject"/>
                 <div>
-                <textarea class = "textarea" rows = "7" cols = "70" placeholder="Message"></textarea>
+                <textarea class = "textarea" type = "text"rows = "7" cols = "70" name = "Message" placeholder="Message"/>
                 </div>
-                <button class = "sendmessagebutton">Send Message</button>
+                <button type = "submit" class = "sendmessagebutton">Send Message</button>
+                </form>
             </div>
 
 

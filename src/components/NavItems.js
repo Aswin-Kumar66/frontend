@@ -50,7 +50,7 @@ export const navItems = [
     {
       id: 3,
       title: "Performance Marketing",
-      path: "./PerformaneMarketing",
+      path: "./PerformanceMarketing",
       cName: "submenu-item",
     },
     {

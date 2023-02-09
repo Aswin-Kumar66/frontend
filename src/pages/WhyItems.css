@@ -1,12 +1,15 @@
 .inditem{
-    height: 200px;
+    /* height: 200px; */
     padding: 20px;
+    margin: 20px;
     justify-content: center;
     align-items: center;
-    width : 400px
+    width : 370px;
+    transition: transform 500ms;
 }
 
 .Whyitems{
+    /* font-size: 10px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,22 +18,24 @@
     padding : 50px;
     padding-left: 100px;
     list-style: none;
+    
 }
 .Whyitems :hover{
-    background-color: yellow;
+    background-color: #ffea07;
     color: black;
+    transform : scale(1.08);
 }
 .logo{
     /* color: white; */
     text-decoration: none;
-    font-size: 2rem;
+    /* font-size: 1rem; */
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding-left: 130px;
+    padding-left: 110px;
     width: 10rem;
-
+   
 }
 .whychoose{
     padding-left: 500px;
