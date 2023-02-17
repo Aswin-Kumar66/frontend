@@ -47,6 +47,15 @@ function Navbar() {
                 </li>
               );
             }
+            if(item.title == "Home"){
+              return (
+                <li key={item.id} className={item.cName}>
+                  <a href={item.path} spy={true} smooth={true} offset={50} duration={500} onClick = {handleclick}>{item.title}</a>
+                 </li>
+              );
+
+            }
+            
             return (
               <li key={item.id} className={item.cName}>
                 <Link to={item.path} spy={true} smooth={true} offset={50} duration={500} onClick = {handleclick}>{item.title}</Link>

@@ -1,3 +1,5 @@
+
+@media only screen and (min-width: 768px) {
 .inditem{
     /* height: 200px; */
     padding: 20px;
@@ -45,4 +47,62 @@
 }
 .choose{
     color: yellow;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+    .inditem{
+        /* height: 200px; */
+        padding: 20px;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        width : 370px;
+        transition: transform 500ms;
+        font-size: 10px;
+    }
+    
+    .Whyitems{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* padding : 50px; */
+        padding-left: 100px;
+        list-style: none;
+        width: 370px;
+        
+    }
+    .Whyitems :hover{
+        background-color: #ffea07;
+        color: black;
+        transform : scale(1.08);
+    }
+    .logo{
+        /* color: white; */
+        text-decoration: none;
+        /* font-size: 1rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 110px;
+        width: 10rem;
+       
+    }
+    .whychoose{
+        padding-left: 40px;
+        padding-bottom: 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .cent{
+        padding-left: 50px;
+    }
+    .choose{
+        color: yellow;
+    }
+    
+    
+    
 }

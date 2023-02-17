@@ -5,6 +5,7 @@ import MapContainer from "./Map"
 import emailjs from 'emailjs-com';
 
 function sendemail(e){
+  alert("Message sent Successfully");
   e.preventDefault();
   emailjs.sendForm('service_efg2okp' , 'template_nz5a1dh' , e.target , 'VlO7PdyhzbRA02YBM');
 
@@ -57,7 +58,9 @@ function ContactUs(){
                 <div>
                 <textarea class = "textarea" type = "text"rows = "7" cols = "70" name = "Message" placeholder="Message"/>
                 </div>
+                <div class = "hover">
                 <button type = "submit" class = "sendmessagebutton">Send Message</button>
+                </div>
                 </form>
             </div>
 

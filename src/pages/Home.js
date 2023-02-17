@@ -39,6 +39,7 @@ return (
           amplitude: 20,
           speed: 0.35,
         }}
+        class = "height"
   />
 
     <div class = "homematter">

@@ -1,10 +1,12 @@
+
+@media only screen and (min-width: 768px) {
 .mobile-marketing{
     display: flex;
 }
 .mobile-matter{
     width: 550px;
     padding-right : 100px;
-    padding-left : 100px;
+    padding-left : 300px;
 }
 .heading{
     font-size: 50px;
@@ -15,6 +17,7 @@
     width: 150px;
     font-weight: 700;
     border-radius: 30px;
+    cursor: pointer;
 }
 .Appsecond{
     background-color: rgba(250, 214, 171, 0.575);
@@ -26,8 +29,53 @@
     margin-left: 100px;
     padding-top: 1px;
     padding-bottom: 1px;
+    margin-left: 250px;
 }
 .image{
     height : 350px;
     margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .mobile-marketing{
+        display: flex;
+        font-size: 14px;
+    }
+    .mobile-matter{
+        width: 900px;
+        padding-right : 100px;
+        padding-left : 30px;
+    }
+    .heading{
+        font-size: 25px;
+    }
+    .but{
+        background-color: yellow;
+        height: 40px;
+        width: 150px;
+        font-weight: 700;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+    .Appsecond{
+        background-color: rgba(250, 214, 171, 0.575);
+        width : 500px;
+        /* height: 00px; */
+        font-size : 15px;
+        border-radius: 50px;
+        padding-left: 25px;
+        margin-left: 100px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        margin-left: 50px;
+    }
+    .image{
+        height : 250px;
+        margin-top: 50px;
+    }
+
+
 }

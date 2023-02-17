@@ -1,3 +1,4 @@
+@media only screen and (min-width: 768px) {
 .contact{
     display: flex;
     
@@ -62,8 +63,11 @@
     background: #ffeb4e;
     color: #000000;
     transition: 0.3s;
+    cursor: pointer;
 
 }
+
+
 .textarea{
     background-color: black;
     margin: 5px;
@@ -75,4 +79,93 @@
 .map-container {
     height: 400px;
   }
-  
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact{
+        align-items: center;
+        /* width: 100%; */
+        column-gap: 50px;
+        padding : 20px;
+        padding-left: 100px;
+        padding-right : 100px;
+        margin: auto;
+    }
+    
+    .item{
+        color: #777777;
+        text-align: center;
+        box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+        padding: 20px 10 10px 0;
+        width: 100%;
+        padding-right: 60px;
+        height : 160px;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .addressitem{
+        color: #777777;
+        text-align: center;
+        box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+        padding: 20px 10 10px 0;
+        width: 100%;
+        padding-right: 60px;
+        height: 160px;
+        font-size: 14px;
+    
+    }
+    .icon{
+        color: #ffeb4e;
+        text-decoration: none;
+        font-size: 2rem;
+        padding-top: 10px;
+    
+    }
+    .sendmessage{
+        color: #777777;
+        text-align: center;
+        box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+        padding: 20px 0 30px 0;
+        width: 120%;
+        height: 70%;
+        margin-top : 90px
+    
+    }
+    
+    .ourcontact{
+        color: #ffeb4e;
+        /* padding-left: 100px; */
+        text-align: center;
+    }
+    .map{
+        width: 800px;
+    }
+    .sendmessagebutton{
+        background-color: #ffeb4e;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        padding: 0 20px;
+        background: #ffeb4e;
+        color: #000000;
+        transition: 0.3s;
+        cursor: pointer;
+    
+    }
+    
+    
+    .textarea{
+        background-color: black;
+        margin: 5px;
+        color : white;
+    }
+    .contactdes{
+        color: white;
+    }
+    .map-container {
+        height: 400px;
+      }
+
+
+}

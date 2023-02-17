@@ -4,7 +4,7 @@ export const navItems = [
     {
       id: 1,
       title: "Home",
-      path: "Home",
+      path: "/",
       cName: "nav-item",
     },
     {
@@ -37,26 +37,26 @@ export const navItems = [
     {
       id: 1,
       title: "App Consulting",
-      path: "./AppConsulting",
+      path: "/AppConsulting",
       cName: "submenu-item",
       component :  {AppConsulting},
     },
     {
       id: 2,
       title: "Brand Promotion",
-      path: "./BrandPromotion",
+      path: "/BrandPromotion",
       cName: "submenu-item",
     },
     {
       id: 3,
       title: "Performance Marketing",
-      path: "./PerformanceMarketing",
+      path: "/PerformanceMarketing",
       cName: "submenu-item",
     },
     {
       id: 4,
       title: "Lead Generation ",
-      path: "./LeadGeneration",
+      path: "/LeadGeneration",
       cName: "submenu-item",
     },
 

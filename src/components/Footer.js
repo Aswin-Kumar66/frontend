@@ -1,4 +1,4 @@
-import React from "react";
+import React , {useState} from "react";
 import "./footer.css"
 import * as Icons from "react-icons/fa";
 import { Link } from "react-scroll";
@@ -9,7 +9,9 @@ function subscribe(){
 
 
 const Footer = () => {
-	const icons = [<Icons.FaTwitter /> , <Icons.FaFacebook /> , <Icons.FaInstagram /> , <Icons.FaSkype /> , <Icons.FaLinkedin />]
+	const url = "https://www.linkedin.com/company/moonglade-links/";
+	const icons = [[<Icons.FaTwitter /> , url ], [<Icons.FaFacebook /> , url] , [<Icons.FaInstagram /> , url] , [<Icons.FaSkype /> , url] , [<Icons.FaLinkedin /> , url]]
+
 return (
 	<footer>
 	<div class = "footer">
@@ -20,7 +22,7 @@ return (
 			<ul class = "social">
 				{icons.map((item)=>{
 					return(
-					<li class = "links">{item}</li>
+					<li class = "links"><a href = {item[1]}>{item[0]}</a></li>
 					);
 				})}
 			</ul>
@@ -29,7 +31,7 @@ return (
 		<div class = "usefulLinks">
 		<p class = "footerpara">Useful Links</p>
 		<ul class = "footerlist">
-			<li class = "flist"><Link to = "Home" spy={true} smooth={true} offset={50} duration={500}>Home</Link></li>
+			<li class = "flist"><a href = "/" spy={true} smooth={true} offset={50} duration={500}>Home</a></li>
 			<li class = "flist"><Link to = "About" spy={true} smooth={true} offset={50} duration={500}>About</Link></li>
 			<li class = "flist">Solutions</li>
 			<li class = "flist"><Link to = "whyMoonglade" spy={true} smooth={true} offset={50} duration={500}>Why MoongladeLinks</Link></li>
@@ -46,9 +48,12 @@ return (
 			<li class = "flist"><a href = "LeadGeneration">Lead Generation</a></li>
 		</ul>
 		</div>
+		<div class = "flex-footer">
 		<textarea rows = "2" cols = "35" placeholder="Enter your email"></textarea>
-                <button type = "Submit" class = "button">Subscribe</button>
-
+				<div class = "hover">
+                <button type = "Submit" class = "button" >Subscribe</button>
+				</div>
+		</div>
 		<div>
 
 
